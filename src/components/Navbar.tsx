@@ -7,9 +7,8 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/pricing">Pricing</Link>
-        <a href="#">Log In</a>
-        <a href="#">Sign Up</a>
-        
+        <Link to="/login">Log In</Link>
+        <Link to="/signup">Sign Up</Link>
     </nav>
   )
 }
