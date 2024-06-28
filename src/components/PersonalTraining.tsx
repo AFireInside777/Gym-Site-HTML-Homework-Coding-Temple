@@ -3,7 +3,7 @@ function PersonalTraining() {
   return (
     <div className="uk-container uk-width-1-1 uk-flex uk-flex-column uk-border-rounded">
         <h1 className="uk-margin-remove-bottom" style={{"width":"max-content", "marginLeft": "auto", "marginRight": "auto"}}>Personal Training Packages</h1>
-        <div className="uk-card uk-flex uk-flex-row uk-height-medium uk-background-secondary uk-border-rounded" style={{"border":"2px red solid", "width": "75%", "marginLeft": "auto", "marginRight": "auto"}}>
+        <div className="uk-card uk-flex uk-flex-row uk-height-medium uk-background-secondary uk-border-rounded" style={{"width": "75%", "marginLeft": "auto", "marginRight": "auto"}}>
 
             <div className="uk-card uk-height-1-1 uk-padding-small" style={{"width": "25%"}}>
                 <h3 className="uk-margin-remove" style={{"color":"whitesmoke"}}>Personal Training Monthly</h3>

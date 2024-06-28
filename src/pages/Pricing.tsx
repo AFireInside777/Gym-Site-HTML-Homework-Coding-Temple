@@ -45,7 +45,7 @@ function Pricing() {
             </div>
 
           </div>
-          <div className="uk-card uk-flex uk-flex-row uk-background-default uk-border-rounded uk-padding-small" style={{"border":"2px blue solid"}}>
+          <div className="uk-card uk-flex uk-flex-row uk-background-default uk-border-rounded uk-padding-small">
 
             <div className="uk-card uk-flex uk-flex-column">
               <h1 className="uk-text-danger">

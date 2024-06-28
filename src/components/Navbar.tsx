@@ -1,13 +1,15 @@
-import React from 'react'
+
+import {  Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="uk-navbar-container" id="navbar">
-        <a href="#">Home</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/pricing">Pricing</Link>
         <a href="#">Log In</a>
         <a href="#">Sign Up</a>
-        <a href="#">About</a>
-        <a href="#">Pricing</a>
+        
     </nav>
   )
 }

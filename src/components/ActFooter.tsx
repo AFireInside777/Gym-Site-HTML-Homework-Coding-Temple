@@ -5,7 +5,7 @@ import googlestore from '../assets/images/google-play.jpg'
 
 function ActFooter() {
   return (
-    <div className="uk-container uk-width-1-1 uk-margin-small-top uk-flex-column" style={{"border":"2px red solid", "paddingLeft": "20px", "paddingRight": "20px"}}>
+    <div className="uk-container uk-width-1-1 uk-margin-small-top uk-flex-column" style={{"paddingLeft": "20px", "paddingRight": "20px"}}>
         <div className="uk-card uk-background-secondary uk-border-pill" id="footerDiv">
             <img src={weblogo} width="100" height="100"/>
         </div>

@@ -9,14 +9,14 @@ function Memberships() {
     }
 
   return (
-    <div className="uk-width-1-1 uk-margin-large-top uk-flex uk-flex-row uk-height-medium uk-margin-small-bottom uk-border-rounded" style={{"border":"2px blue solid"}}>
+    <div className="uk-width-1-1 uk-margin-large-top uk-flex uk-flex-row uk-height-medium uk-margin-small-bottom uk-border-rounded">
 
-        <div className="uk-card uk-height-1-1 uk-border-rounded" style={{"border":"2px blue solid", "paddingLeft": "5px", "paddingRight": "5px", "width": "23%", "marginRight":"2px"}}>
+        <div className="uk-card uk-height-1-1 uk-border-rounded" style={{"paddingLeft": "5px", "paddingRight": "5px", "width": "23%", "marginRight":"2px"}}>
             <h1 style={{ "marginTop":"30px"}}>Memberships</h1>
             <p style={{"height": "50%"}} className="uk-text-large">Need more flexibility? Our class packages are designed for the occasional class user.</p>
         </div>
 
-        <div className="uk-card uk-height-1-1 uk-width-medium uk-background-secondary uk-border-rounded" style={{"border":"2px blue solid", "paddingLeft": "15px", "paddingRight": "15px", "width":"26%", "marginRight":"2px"}}>
+        <div className="uk-card uk-height-1-1 uk-width-medium uk-background-secondary uk-border-rounded" style={{"paddingLeft": "15px", "paddingRight": "15px", "width":"26%", "marginRight":"2px"}}>
             <h1 style={membershipstyle}>WTF Premium</h1>
             <p style={membershipstyle}>Includes:</p>
             <p style={membershipstyle}><i className="fas fa-check" style={{"color": "#df2a2a"}}></i> 1 Class per Day</p>
@@ -28,7 +28,7 @@ function Memberships() {
             <button className="uk-button uk-button-primary uk-width-1-1 uk-border-rounded" style={{"height":"15%","marginTop":"5px"}}>Buy Now</button>
         </div>
 
-        <div className="uk-card uk-height-1-1 uk-width-medium uk-background-secondary uk-border-rounded" style={{"border":"2px blue solid", "paddingLeft": "15px", "paddingRight": "15px", "width":"26%", "marginRight":"2px"}}>
+        <div className="uk-card uk-height-1-1 uk-width-medium uk-background-secondary uk-border-rounded" style={{"paddingLeft": "15px", "paddingRight": "15px", "width":"26%", "marginRight":"2px"}}>
             <h1 style={membershipstyle}>WTF All Access</h1>
             <p style={membershipstyle}>Includes:</p>
             <p style={membershipstyle}><i className="fas fa-check" style={{"color": "#df2a2a"}}></i> 8 Classes per Month</p>
