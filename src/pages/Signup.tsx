@@ -1,4 +1,3 @@
-import React from 'react'
 import egym from '../assets/images/emptygym2.jpg'
 
 function Signup() {
