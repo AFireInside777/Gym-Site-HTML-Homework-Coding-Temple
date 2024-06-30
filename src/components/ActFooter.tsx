@@ -1,4 +1,3 @@
-import React from 'react'
 import weblogo from '../assets/images/wtflogo.jpg'
 import appstore from '../assets/images/app-store.jpg'
 import googlestore from '../assets/images/google-play.jpg'

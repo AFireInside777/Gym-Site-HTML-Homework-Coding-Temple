@@ -1,4 +1,3 @@
-import React from 'react'
 import bgvideo from '../assets/videos/GymVideo.mp4'
 
 const Landing = () => {

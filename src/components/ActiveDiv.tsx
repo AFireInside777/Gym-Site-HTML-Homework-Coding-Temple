@@ -1,5 +1,3 @@
-import React from 'react'
-
 function ActiveDiv({theprops}: any) {
 
   console.log(theprops)
