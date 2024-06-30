@@ -39,19 +39,18 @@ a{
 
 #HomeCard{
   position: relative;
-  bottom: 700px;
+  bottom: 800px;
   width: max-content;
   height: max-content;
-  background-color: rgba(250, 235, 215, 0.418);
+  color: whitesmoke
 }
 
 #HomeCard2{
-  
   position: relative;
-  bottom: 400px;
+  bottom: 500px;
   width: max-content;
   height: max-content;
-  background-color: rgba(250, 235, 215, 0.418);
+  color: whitesmoke;
 }
 
 #hometitle{
