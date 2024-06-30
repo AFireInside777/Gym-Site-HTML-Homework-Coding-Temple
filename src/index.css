@@ -33,21 +33,22 @@ a{
 #homedisplay{
   height: 94vh;
   overflow-y: hidden;
+  display: flex;
+  flex-direction: column
 }
 
 #HomeCard{
-  position: absolute;
-  bottom: 500px;
-  right: 240px;
+  position: relative;
+  bottom: 700px;
   width: max-content;
   height: max-content;
   background-color: rgba(250, 235, 215, 0.418);
 }
 
 #HomeCard2{
-  position: absolute;
-  bottom: 100px;
-  right: 40px;
+  
+  position: relative;
+  bottom: 400px;
   width: max-content;
   height: max-content;
   background-color: rgba(250, 235, 215, 0.418);
